@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>feildset</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>personal Information</legend>
+                <div>
+                    <lable for="fn">First Name</lable>
+                    <input type="text" name="fname" id="fn">
+                </div>
+                <div>
+                    <lable for="ln">Last Name</lable>
+                    <input type="text" name="lname" id="ln">
+                </div>
+                <div>
+                    <label>Gender</label>
+                    <div>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="male">
+
+                    </div>
+                    <div>
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" value="female">
+
+                    </div>
+                </div>
+                <div>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div>
+                    <label for="bio">Bio</label>
+                    <textarea rows="20" cols="70" name="bio" id="bio">shivkanya</textarea>
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Educational Information</legend>
+                <div>
+                    <label for="schooling">schooling</label>
+                    <input type="text" name="schooling" id="schooling">
+                </div>
+                <div>
+                    <label for="univ">university</label>
+                    <select name="university" id="schooling">
+                        <option value="bit">Birla Institute of Technology</option>
+                        <option value="iit">Indian Institute of Technology</option>
+                        <option value="vu" selected>Vikram University</option>
+                    </select>
+                </div>
+            </fieldset>
+        </form>
+    
+</body>
+</html>
